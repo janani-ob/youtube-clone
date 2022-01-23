@@ -66,7 +66,21 @@
             }
 
             li {
+                position: relative;
                 padding: 10px;
+            }
+
+            .close {
+                cursor: pointer;
+                position: absolute;
+                position: absolute;
+                top: 0;
+                right: 0;
+                padding: 10px;
+            }
+
+            .close:hover {
+                background-color: paleturquoise;
             }
         </style>
 
@@ -82,8 +96,8 @@
 
         <main>
             <form>
-                <input type="text" placeholder="Enter The Text Hear">
-                <span id="addBtn"> Add</span>
+                <input id="my text" type="text" placeholder="Enter The Text Hear">
+                <span onclick="mylist()" id="addBtn"> Add</span>
             </form>
             <ul id="myUl">
                 <li>Red</li>
@@ -91,7 +105,50 @@
             </ul>
         </main>
         <script>
-            function mylist(){
-                
+            var list = document.getElementsByTagName('li');
+            for (var i = 0; i < list.length; i++) {
+                var span = document.createElement("span");
+                span.className = "close";
+                var close = document.createTextNode("X");
+                span.appendChild("close");
+                list[i].appendChild(span);
+
             }
+            var close = document.getElementsByClassName("close");
+            for (i = 0; i < close.length; i++);
+            close[i].onclick = function () {
+                var d = this.parentElement;
+                d.style.display = "none";
+            }
+
+
+            function mylist() {
+                var li = documant.createElement("li");
+                var mytxt = document.getElementById("mytext").value;
+                var t = document.createTextNode("mytxt");
+                li.appendChild(t);
+                if (mytxt == "") {
+                    alert("Input field is empty");
+
+                } else {
+                    document.getElementById("myUl").appendChild(li);
+                }
+                var list = document.getElementsByTagName('li');
+                for (var i = 0; i < list.length; i++) {
+                    var span = document.createElement("span");
+                    span.className = "close";
+                    var close = document.createTextNode("X");
+                    span.appendChild("close");
+                    list[i].appendChild(span);
+                }
+                var close = document.getElementsByClassName("close");
+                for (i = 0; i < close.length; i++);
+                close[i].onclick = function () {
+                    var d = this.parentElement;
+                    d.style.display = "none";
+                }
         </script>
+
+    </body>
+
+    </html>
