@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+  }
+  .links{
+    width: 20%;
+    float: left;
+    padding: 20px;
+  }
+  .contact{
+    width: 65%;
+    float: left;
+  padding: 20px;
+  }
+  p
+  {
+      font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-size: 100%;
+      
+      
+  }
+  h1,h4
+  {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 550; 
+  }
+  h2
+  {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 600;
+
+  }
+  a 
+  {
+     
+    text-decoration: none; 
+  }
+  img
+  {
+    padding-bottom: 3em;   
+  }
