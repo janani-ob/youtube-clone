@@ -1,0 +1,63 @@
+.button {
+    background-color:whitesmoke;
+    border:none;
+    color: black;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+
+   
+
+    
+    cursor: pointer;
+  }
+ 
+  .button1
+  {
+      border-radius: 50%;
+    
+  }
+ 
+.fas
+{
+    
+    color: black;
+}
+.far
+{
+    color: black;
+}
+.image
+{
+    width: 100%;
+    
+    justify-content: center;
+    align-items: center;
+}
+.image img
+{
+    clip-path :circle();
+}
+.topnav {
+    overflow: hidden;
+    
+  }
+  
+  .topnav a {
+    float: left;
+    display: block;
+    color: grey;
+    text-align: center;
+    padding: 30px;
+    text-decoration: none;
+    font-size: 14px;
+    border-bottom: 3px solid transparent;
+  }
+  
+  .topnav a:hover {
+    border-bottom: 3px solid black;
+  }
+  
+  .topnav a.active {
+    border-bottom: 3px solid black;
+  }
