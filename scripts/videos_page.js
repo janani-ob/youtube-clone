@@ -62,3 +62,35 @@ function setOldImage8()
 {
     document.getElementById("img8").src="https://i.ytimg.com/vi/A_z5g0_hJN8/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCief-B1bUkymcxXaMHrwAa4psRmA"; 
 }
+function setNewImage9()
+{ 
+    document.getElementById("img9").src="https://cdn-media-1.freecodecamp.org/images/1*4psHn7qR2v1O5kBhJQ_T2w.png"; oooooo
+}
+function setOldImage9()
+{
+    document.getElementById("img9").src="https://i.ytimg.com/vi/Dcr2Rp2ynJI/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBXmBj4AXyPza65IJyp6c4mLWn4tg"; 
+}
+function setNewImage10()
+{ 
+    document.getElementById("img10").src="https://cdn-media-1.freecodecamp.org/images/1*4psHn7qR2v1O5kBhJQ_T2w.png"; oooooo
+}
+function setOldImage10()
+{
+    document.getElementById("img10").src="https://i.ytimg.com/vi/Dcr2Rp2ynJI/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBXmBj4AXyPza65IJyp6c4mLWn4tg"; 
+}
+function setNewImage11()
+{ 
+    document.getElementById("img11").src="https://cdn-media-1.freecodecamp.org/images/1*4psHn7qR2v1O5kBhJQ_T2w.png"; oooooo
+}
+function setOldImage11()
+{
+    document.getElementById("img11").src="https://i.ytimg.com/vi/ZBO8W4wmLQc/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLA2UOnZP1srqgDunMGZ4UVhX_YyFg"; 
+}
+function setNewImage12()
+{ 
+    document.getElementById("img12").src="https://cdn-media-1.freecodecamp.org/images/1*4psHn7qR2v1O5kBhJQ_T2w.png"; oooooo
+}
+function setOldImage12()
+{
+    document.getElementById("img12").src="https://i.ytimg.com/vi/Gi83R8jEqZU/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCMsOwNCzU3GZHzlIz5CgajhWgh9Q"; 
+}
